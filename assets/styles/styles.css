@@ -88,7 +88,7 @@ img {
 }
 
 .btn {
-    font-family: 'Somar Sans', sans-serif;
+  font-family: "Somar Sans", sans-serif;
   text-align: center;
   border: none;
   padding: 0.625rem 1rem;
@@ -220,26 +220,26 @@ body:not(.loaded) .content {
   visibility: hidden;
 }
 
-#hero {
+.HeroSection {
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-#hero .carousel-inner {
+.HeroSection.carousel-inner {
   height: 100%;
 }
 
-#hero .carousel-item {
+.HeroSection .carousel-item {
   position: relative;
 }
 
-#hero .carousel-item img {
+.HeroSection .carousel-item img {
   height: 100vh;
   object-fit: cover;
 }
 
-#hero .carousel-item .overlay {
+.HeroSection .carousel-item .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -254,7 +254,7 @@ body:not(.loaded) .content {
   z-index: 1;
 }
 
-#hero .carousel-item .carousel-caption {
+.HeroSection .carousel-item .carousel-caption {
   z-index: 2;
   text-align: center;
   padding: 0 15px;
@@ -263,13 +263,13 @@ body:not(.loaded) .content {
   transform: translateY(-50%);
 }
 
-#hero .carousel-item .carousel-caption h1 {
+.HeroSection .carousel-item .carousel-caption h1 {
   font-size: 3rem;
   color: var(--grayLight);
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-#hero .carousel-item .carousel-caption p {
+.HeroSection .carousel-item .carousel-caption p {
   font-size: 1.25rem;
   font-weight: 300;
   color: var(--grayLight);
@@ -277,7 +277,7 @@ body:not(.loaded) .content {
 }
 
 .navbar {
-    font-family: 'Somar Sans', sans-serif;
+  font-family: "Somar Sans", sans-serif;
   font-size: 1.25rem;
   transition: background-color 0.3s ease, padding 0.3s ease;
   background-color: transparent;
@@ -441,12 +441,12 @@ body:not(.loaded) .content {
   }
 }
 
-#about {
-  background-color: #f8f5f2;
+.AboutSection {
+  background-color: #f8f5f2; 
 }
 
 #about .section-title p {
-  color: #543e2e;
+  color: var(--darkGaryColor);
 }
 
 .about-image {
@@ -463,7 +463,7 @@ body:not(.loaded) .content {
 }
 
 .about-content p {
-  color: #543e2e;
+  color: var(--darkGaryColor);
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
@@ -477,76 +477,79 @@ body:not(.loaded) .content {
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
 }
 
-#projects {
+/* projectsSection */
+.projectsSection {
   background-color: #fff;
   position: relative;
 }
 
-#projects .carousel-indicators button {
+.projectsSection .carousel-indicators button {
   width: 12px;
   height: 12px;
   border-radius: 50%;
 }
 
-#projects .carousel-inner {
+.projectsSection .carousel-inner {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
   height: 470px;
 }
 
-#projects .carousel-item {
+.projectsSection .carousel-item {
   height: 100%;
 }
 
-#projects .carousel-item img {
+.projectsSection .carousel-item img {
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-#projects .carousel-item img:hover {
+.projectsSection .carousel-item img:hover {
   transform: scale(1.1);
 }
 
-#projects #carouselElwaha .carousel-inner .carousel-item img {
+.projectsSection #carouselElwaha .carousel-inner .carousel-item img {
   object-fit: fill !important;
 }
 
-#projects p {
+.projectsSection p {
   line-height: 1.8;
 }
 
-#projects .project {
+.projectsSection .project {
   padding-top: 20px;
   padding-bottom: 50px;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid var(--grayColor);
 }
 
-#projects .project .action-btns {
+.projectsSection .project .action-btns {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
 }
 
-#projects .project:last-child {
+.projectsSection .project:last-child {
   border-bottom: none;
 }
 
-#projects .nav-tabs button.nav-link {
-  color: black;
+.projectsSection .nav-tabs button.nav-link {
+  color:var(--darkGaryColor);
 }
 
 @media (max-width: 576px) {
-  #projects .nav-tabs button.nav-link {
+  .projectsSection .nav-tabs button.nav-link {
     font-size: 1rem;
   }
 }
 
-#projects .nav-tabs button.nav-link.active {
-  color: #4e3629;
+.projectsSection .nav-tabs button.nav-link.active {
+  color: var(--darkGaryColor);
 }
+
+
 
 #contact-us .contact-details {
   font-size: 1.125rem;
@@ -639,7 +642,7 @@ body:not(.loaded) .content {
   font-size: 2.25rem;
   width: 120px;
   height: 120px;
-  border: 8px solid #4e3629;
+  border: 8px solid var(--themeColor);
   border-radius: 50%;
   transition: all 0.5s;
   justify-content: center;
@@ -689,7 +692,7 @@ body:not(.loaded) .content {
 #partners .swiper .swiper-slide h5 {
   margin-top: 1rem;
   font-size: 1rem;
-  color: #543e2e;
+  color: var(--darkGaryColor);
 }
 
 .content-wrapper {
@@ -700,7 +703,7 @@ body:not(.loaded) .content {
 
 footer {
   height: 97px;
-  background-color: #4e3629;
+  background-color: var(--themeColor);
   color: #fff;
 }
 
