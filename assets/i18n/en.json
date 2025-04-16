@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "description": "Yaqeen - Experts in investment and real estate development since 1997. Discover our outstanding real estate projects and leading market services.",
+    "keywords": "Yaqeen, Real Estate Investment, Real Estate Projects, Real Estate Development, Investment, Saudi Arabia, Luxury, Quality",
+    "author": "Yaqeen Real Estate",
+    "ogTitle": "Yaqeen - Experts in Investment and Real Estate Development",
+    "ogDescription": "Discover our real estate projects and leading services in the field of investment and real estate development.",
+    "twitterTitle": "Yaqeen - Experts in Investment and Real Estate Development",
+    "twitterDescription": "Discover our real estate projects and leading services in the field of investment and real estate development."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Yaqeen",
+    "projects": "Projects",
+    "services": "Services",
+    "partners": "Partners",
+    "contact": "Contact Us",
+    "language": "Arabic"
+  },
+  "hero": {
+    "slide1": {
+      "title": "A Future Reflecting Certainty",
+      "description": "Building the future with confidence and certainty"
+    },
+    "slide2": {
+      "title": "Redefining Luxury",
+      "description": "A world of elegance and beauty."
+    },
+    "slide3": {
+      "title": "Your Dream Home Awaits",
+      "description": "Properties tailored for exceptional tastes."
+    }
+  },
+  "about": {
+    "title": "About Yaqeen",
+    "subtitle": "Discover who we are",
+    "paragraph1": "At Yaqeen, we have been leaders in investment and real estate development since August 1997. Our commitment to excellence has led us to deliver diverse projects, including raw land development, commercial real estate, and residential complexes.",
+    "paragraph2": "Our mission is to keep Yaqeen a symbol of reliability, high quality, and competitive prices, as we believe that excellence is the foundation of success."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Explore some of our outstanding real estate projects.",
+    "schedule": "Register Your Interest",
+    "brochure": "Download Brochure",
+    "view-details": "View Details",
+    "jada": {
+      "title": "Jada Al-Diriyah Project",
+      "description": "Located in the historic Diriyah area, the project reflects the cultural heritage of the region. It includes 76 unique residential units."
+    },
+    "dana": {
+      "title": "Dana Al-Yasmeen Project",
+      "description": "A luxurious residential project featuring 16 exclusive villas, designed to provide a modern lifestyle with high-quality infrastructure."
+    },
+    "dana-mokhatat": {
+      "title": "Al-Dana Master Plan Project",
+      "description": "In Al Kharj Governorate, we had a share in real estate development. Due to the development in infrastructure and population density, 17 residential villas were built and completely completed."
+    },
+    "wadi": {
+      "title": "Villas Al-Wadi Project",
+      "description": "Al-Wadi includes 6 luxurious villas with a modern design and complete facilities, offering an elegant and comfortable environment for families in a strategic and quiet location."
+    },
+    "omara-derayaa": {
+      "title": "Omara Al-Diriyah Project",
+      "description": "A modern residential project spanning 4,200 square meters and including 40 apartments distributed across two floors and a penthouse. Designed with a blend of authenticity and modernity to match the historical Diriyah atmosphere. Strategically located near King Khalid Road, the project reflects luxury and privacy, offering integrated facilities such as parking spaces, green areas, and shared service areas. It targets families and investors seeking a high-end and sustainable living environment in the heart of one of Riyadh's most significant heritage areas."
+    },
+    "bn-gloy-road": {
+      "title": "The Kairouan Jewel Project",
+      "description": "A modern office-commercial project located on Bn-Gloy Road, spanning 20,700 square meters with a leasable area of 25,895 square meters. It features a strategic location on Bn-Gloy Road, a contemporary design that meets business needs, and provides integrated office and commercial spaces suitable for various activities."
+    },
+    "waha": {
+      "title": "Al-Waha Master Plan Project",
+      "description": "Al-Waha Master Plan in Al-Kharj spans over 460,000 square meters and includes 49 blocks with more than 600 residential and commercial land plots of varying sizes. It features a strategic location and developed infrastructure, including road networks and integrated facilities, making it an ideal choice for living or investment."
+    },
+    "stats": {
+      "landArea": "Land Area",
+      "developedArea": "Developed Area",
+      "units": "Number of Units",
+      "projectDuration": "Project Duration",
+      "unitSquareMeters": "Square Meters",
+      "unitVillas": "Villas",
+      "unitMonths": "Months"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you and answer all your inquiries.",
+    "address": "King Khalid Branch Road - Riyadh",
+    "phone": "+966 55 050 3606",
+    "twitter": "Yaqeen",
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "phoneLabel": "Mobile Number",
+      "phonePlaceholder": "Enter your phone number",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "example@example.com",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Write your message here",
+      "submit": "Submit"
+    }
+  },
+  "projectsTabs": {
+    "all": "All",
+    "sold": "Sold",
+    "underConstruction": "Under Construction",
+    "available": "Available for Sale"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Explore the services we provide to achieve your aspirations.",
+    "residentialDevelopment": {
+      "title": "Residential Development",
+      "description": "We develop residential complexes with the highest quality standards to meet our clients' needs."
+    },
+    "commercialDevelopment": {
+      "title": "Commercial Development",
+      "description": "We offer comprehensive development solutions for commercial buildings to ensure continued success."
+    },
+    "residentialOperations": {
+      "title": "Residential Operations",
+      "description": "Managing and operating residential complexes to ensure residents' comfort."
+    },
+    "rawLandDevelopment": {
+      "title": "Raw Land Development",
+      "description": "Turning raw lands into successful investment projects."
+    },
+    "workerHousing": {
+      "title": "Worker Housing",
+      "description": "Providing high-quality and comfortable housing solutions for workers."
+    },
+    "commercialOperations": {
+      "title": "Commercial Operations",
+      "description": "Managing and operating commercial projects to achieve sustainability."
+    }
+  },
+  "partners": {
+    "title": "Partners of Success",
+    "subtitle": "We are proud of our partnership with these distinguished companies.",
+    "companies": {
+      "jadwa": "Jadwa Investment",
+      "Algada": "The First Avenue for Real Estate Development",
+      "bandarAlmansour": "Bandar Almansour",
+      "bfs": "Badr AlSudairi",
+      "msquare": "MSquare",
+      "sama": "Sama",
+      "lg": "LG",
+      "grohe": "Grohe",
+      "jotun": "Jotun"
+    }
+  },
+
+  "footer": {
+    "text": "Yaqeen Company. All Rights Reserved. © 2024"
+  }
+}
