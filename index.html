@@ -88,7 +88,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link" 
+                    class="nav-link"
                     href="#projects"
                     data-translate="navbar.projects"
                     >مشاريعنا</a
@@ -155,14 +155,8 @@
                 <div
                   class="carousel-caption d-flex flex-column align-items-center justify-content-center text-light"
                 >
-                <h1
-                class="display-4 fw-bold mb-3" 
-              >
-                    مستقبل يعكس يقين
-                  </h1>
-                  <p class="lead" >
-                    نبني المستقبل بثقة ويقين
-                  </p>
+                  <h1 class="display-4 fw-bold mb-3">مستقبل يعكس يقين</h1>
+                  <p class="lead">نبني المستقبل بثقة ويقين</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -175,14 +169,8 @@
                 <div
                   class="carousel-caption d-flex flex-column align-items-center justify-content-center text-light"
                 >
-                  <h1
-                    class="display-4 fw-bold mb-3" 
-                  >
-                    إعادة تعريف الفخامة
-                  </h1>
-                  <p class="lead" >
-                    عالم من الرقي والجمال.
-                  </p>
+                  <h1 class="display-4 fw-bold mb-3">إعادة تعريف الفخامة</h1>
+                  <p class="lead">عالم من الرقي والجمال.</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -195,19 +183,14 @@
                 <div
                   class="carousel-caption d-flex flex-column align-items-center justify-content-center text-light"
                 >
-                  <h1
-                    class="display-4 fw-bold mb-3" 
-                  >
-                    منزل أحلامك في انتظارك
-                  </h1>
-                  <p class="lead"  >
-                    عقارات مصممة خصيصًا لأذواق مميزة.
-                  </p>
+                  <h1 class="display-4 fw-bold mb-3">منزل أحلامك في انتظارك</h1>
+                  <p class="lead">عقارات مصممة خصيصًا لأذواق مميزة.</p>
                 </div>
               </div>
             </div>
           </div>
-        </section> 
+        </section>
+      </main>
     </div>
 
     <script
@@ -215,9 +198,22 @@
       integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>  
-    <script src="./assets/js/main.js"></script>
-    <!-- <script type="module" src=" ./assets/js/index.js"></script>
-    <script type="module" src=" ./assets/js/contact.js"></script> -->
+    ></script>
+
+    <!-- <script src="./assets/js/main.js"></script> -->
+    <!-- <script type="module" src=" ./assets/js/index.js"></script> -->
+    <!-- <script type="module" src=" ./assets/js/contact.js"></script> -->
+
+    <script>
+      const toggleMenu = document.querySelector(".toggle-menu");
+      const menuContainer = document.querySelector(".navbar-container");
+
+      function openSideNav() {
+        toggleMenu.classList.toggle("open");
+        menuContainer.classList.toggle("open-menu-container");
+      }
+
+      toggleMenu.addEventListener("click", openSideNav);
+    </script>
   </body>
 </html>
